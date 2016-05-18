@@ -31,3 +31,9 @@
 ul .ft{
   size:15px;
 }
+a:link{
+  color:yellow;
+}
+a:visited{
+  color:rgb(0, 255, 255);
+}
