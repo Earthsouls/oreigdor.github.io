@@ -37,3 +37,6 @@ a:link{
 a:visited{
   color:rgb(0, 255, 255);
 }
+clock{
+  float:left;
+}
