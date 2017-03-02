@@ -1,0 +1,119 @@
+From: <Saved by Blink>
+Subject: Bad Time Simulator (Sans Fight)
+Date: Fri, 2 Mar 2017 23:57:25 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--nviqsNvteWCpoclzotSRhPX4hbJovCv5qK3bH9kWUY----"
+
+------MultipartBoundary--nviqsNvteWCpoclzotSRhPX4hbJovCv5qK3bH9kWUY----
+Content-Type: text/html
+Content-ID: <frame-5486-f2ef1e32-eb21-4c89-93c6-1db1d4921446@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://jcw87.github.io/c2-sans-fight/
+
+<!DOCTYPE html><html manifest=3D"http://jcw87.github.io/c2-sans-fight/offli=
+ne.appcache"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">
+   =20
+	<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+	<title>Bad Time Simulator (Sans Fight)</title>
+	<meta name=3D"description" content=3D"do you wanna have a bad time? 'cause=
+ if you visit this page... you are REALLY not going to like what happens ne=
+xt.">
+=09
+	<!-- Standardised web app manifest -->
+	<link rel=3D"manifest" href=3D"http://jcw87.github.io/c2-sans-fight/appman=
+ifest.json">
+=09
+	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta =
+tags.) -->
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0, maximum-scale=3D1.0, minimum-scale=3D1.0, user-scalable=3Dno, minimal-u=
+i">
+	<meta name=3D"apple-mobile-web-app-capable" content=3D"yes">
+	<meta name=3D"apple-mobile-web-app-status-bar-style" content=3D"black">
+	<link rel=3D"apple-touch-icon" sizes=3D"256x256" href=3D"http://jcw87.gith=
+ub.io/c2-sans-fight/icon-256.png">
+	<meta name=3D"HandheldFriendly" content=3D"true">
+=09
+	<!-- Chrome for Android web app tags -->
+	<meta name=3D"mobile-web-app-capable" content=3D"yes">
+	<link rel=3D"shortcut icon" sizes=3D"256x256" href=3D"http://jcw87.github.=
+io/c2-sans-fight/icon-256.png">
+
+    <!-- All margins and padding must be zero for the canvas to fill the sc=
+reen. -->
+	<style type=3D"text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		html, body {
+			background: #000;
+			color: #fff;
+			overflow: hidden;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+		canvas {
+			touch-action-delay: none;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+    </style>
+=09
+
+</head>=20
+=20
+<body>=20
+	<div id=3D"fb-root"></div>
+=09
+=09
+=09
+	<!-- The canvas must be inside a div called c2canvasdiv -->
+	<div id=3D"c2canvasdiv" style=3D"width: 640px; height: 480px; margin-left:=
+ 363px; margin-top: 75px;">
+=09
+		<!-- The canvas the project will render to.  If you change its ID, don't =
+forget to change the
+		ID the runtime looks for in the jQuery events above (ready() and cr_sizeC=
+anvas()). -->
+		<canvas id=3D"c2canvas" width=3D"640" height=3D"480" style=3D"width: 640p=
+x; height: 480px;">
+			<!-- This text is displayed if the visitor's browser does not support HT=
+ML5.
+			You can change it, but it is a good idea to link to a description of a b=
+rowser
+			and provide some links to download some popular HTML5-compatible browser=
+s. -->
+			<h1>Your browser does not appear to support HTML5.  Try upgrading your b=
+rowser to the latest version.  <a href=3D"http://www.whatbrowser.org/">What=
+ is a browser?</a>
+			<br><br><a href=3D"http://www.microsoft.com/windows/internet-explorer/de=
+fault.aspx">Microsoft Internet Explorer</a><br>
+			<a href=3D"http://www.mozilla.com/firefox/">Mozilla Firefox</a><br>
+			<a href=3D"http://www.google.com/chrome/">Google Chrome</a><br>
+			<a href=3D"http://www.apple.com/safari/download/">Apple Safari</a></h1>
+		</canvas>
+	=09
+	</div>
+=09
+	<!-- Pages load faster with scripts at the bottom -->
+=09
+	<!-- Construct 2 exported games require jQuery. -->
+=09
+
+
+=09
+    <!-- The runtime script.  You can rename it, but don't forget to rename=
+ the reference here as well.
+    This file will have been minified and obfuscated if you enabled "Minify=
+ script" during export. -->
+=09
+
+   =20
+=09
+=20
+ </body></html>
+------MultipartBoundary--nviqsNvteWCpoclzotSRhPX4hbJovCv5qK3bH9kWUY------
