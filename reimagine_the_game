@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+    <title>Reimagine :the game:</title>
+   </head>
+   <body>
+    <object width="1000" height="500">
+    <param name="movie" value="/flash/reimagine_the_game.swf">
+    <embed src="/flash/reimagine_the_game.swf" width="100" height="100">
+    </embed>
+</object>
+  </body>
+</html>
