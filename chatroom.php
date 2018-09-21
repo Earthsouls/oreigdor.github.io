@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 
 if(isset($_GET['logout'])){	
@@ -9,13 +9,13 @@ if(isset($_GET['logout'])){
 	fclose($fp);
 	
 	session_destroy();
-	header("Location: index.php"); //Redirect the user
+	header("Location: chatroom.php"); //Redirect the user
 }
 
 function loginForm(){
 	echo'
 	<div id="loginform">
-	<form action="index.php" method="post">
+	<form action="chatroom.php" method="post">
 		<p>Please enter your name to continue:</p>
 		<label for="name">Name:</label>
 		<input type="text" name="name" id="name" />
@@ -38,7 +38,7 @@ if(isset($_POST['enter'])){
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Chat - Customer Module</title>
-<link type="text/css" rel="stylesheet" href="style.css" />
+<link type="text/css" rel="stylesheet" href="chatroom.css" />
 </head>
 
 <?php
