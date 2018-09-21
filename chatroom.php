@@ -4,7 +4,7 @@
 <title>Chat - Customer Module</title>
 <link type="text/css" rel="stylesheet" href="chatroom.css" />
 </head>
-<?
+<?php
 session_start();
  
 function loginForm(){
