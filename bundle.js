@@ -2849,10 +2849,10 @@ KEY_ESC: 27,
                     id: "z",
                     host: "Oreigdor",
                     region: "US East",
-                    type: "ovw",
-                    name: "Oreigdors Arras Io",
+                    type: "ffa",
+                    name: "Oreigdors Arras.io",
                     location: "z-unknown",
-                    at: f.glitch("oreigdors-arras-io")
+                    at: "oreigdors-arras-io.glitch.me"
                 }, {
                     visible: 0,
                     id: "x",
