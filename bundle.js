@@ -3377,7 +3377,7 @@ KEY_ESC: 27,
 case a.KEY_ULT:
                         this.parent.emit("`");
                         Break;
-Case a.KEY_TOGGLEUI:
+case a.KEY_TOGGLEUI:
 this.parent.emit(“q”);
                     case a.KEY_KILL_YOURSELF:
                         this.parent.emit("K");
