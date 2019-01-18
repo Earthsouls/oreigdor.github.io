@@ -211,7 +211,7 @@
       gameScript.src = '//oreigdor.github.io/bundle.js?1546657515938'
       document.body.appendChild(gameScript)
     }
-    /**window.onerror = function(message, source, lineno, colno, error) {
+    window.onerror = function(message, source, lineno, colno, error) {
       window.onerror = null
       if (error) error = error.toString()
       console.warn('The game crashed, refreshing page to recover from error')
@@ -224,7 +224,7 @@
         error: error
       })
       prompt('The game may have crashed, refreshing page to recover from error. Error information: ', e)
-    }**/
+    }
   })()
   </script>
 </body>
