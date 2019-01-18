@@ -1,4 +1,4 @@
-﻿~ function() {
+~ function() {
     var p = p || {};
     p.scope = {};
     p.ASSUME_ES5 = !1;
