@@ -2847,11 +2847,11 @@ KEY_ESC: 27,
             servers: [{
                     visible: 2,
                     id: "z",
-                    host: "Oreigdor",
+                    host: "Glitch",
                     region: "US East",
                     type: "ffa",
                     name: "Oreigdors Arras.io",
-                    location: "z-unknown",
+                    location: "glitch-virginia",
                     at: "oreigdors-arras-io.glitch.me"
                 }, {
                     visible: 0,
