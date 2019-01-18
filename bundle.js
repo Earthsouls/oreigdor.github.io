@@ -3374,11 +3374,12 @@ KEY_ESC: 27,
                     case a.KEY_FUCK_YOU:
                         this.parent.emit("0");
                         break;
-case a.KEY_ULT:
+                    case a.KEY_ULT:
                         this.parent.emit("`");
-                        Break;
-case a.KEY_TOGGLEUI:
-this.parent.emit(“q”);
+                        break;
+                    case a.KEY_TOGGLEUI:
+                        this.parent.emit("q");
+                        break;
                     case a.KEY_KILL_YOURSELF:
                         this.parent.emit("K");
                         break;
