@@ -2847,12 +2847,12 @@ KEY_ESC: 27,
             servers: [{
                     visible: 0,
                     id: "z",
-                    host: "Private",
-                    region: "Unknown",
-                    type: "unk",
-                    name: "Private Server",
+                    host: "Oreigdor",
+                    region: "US East",
+                    type: "ovw",
+                    name: "Oreigdors Arras Io",
                     location: "z-unknown",
-                    at: "private"
+                    at: f.glitch("oreigdors-arras-io")
                 }, {
                     visible: 0,
                     id: "x",
