@@ -2845,7 +2845,7 @@ KEY_ESC: 27,
             showTree: !1,
             server: null,
             servers: [{
-                    visible: 0,
+                    visible: 2,
                     id: "z",
                     host: "Oreigdor",
                     region: "US East",
