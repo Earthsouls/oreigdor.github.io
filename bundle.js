@@ -2846,14 +2846,15 @@ KEY_ESC: 27,
             server: null,
             servers: [{
                     visible: 2,
-                    id: "z",
+                    id: "q",
                     host: "Glitch",
                     region: "US East",
                     type: "ffa",
                     name: "Oreigdors Arras.io",
                     location: "glitch-virginia",
                     at: "oreigdors-arras-io.glitch.me"
-                }, {
+                },
+                      {visible:0,id:"z",host:"Private",region:"Unknown",type:"unk",name:"Private Server",location:"z-unknown",at:"private"},{
                     visible: 0,
                     id: "x",
                     host: "Local",
