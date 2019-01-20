@@ -2781,8 +2781,9 @@
         g.exports = {
             KEY_TOGGLEUI: 8,
 KEY_ESC: 27,
+            KEY_SPRINT: 16,
             KEY_ENTER: 13,
-            KEY_CHAT: 13,
+            KEY_CHAT: 84,
             KEY_FIREFOOD: 119,
             KEY_SPLIT: 32,
             KEY_LEFT: 65,
@@ -2810,7 +2811,7 @@ KEY_ESC: 27,
             KEY_UPGRADE_RGN: 57,
             KEY_UPGRADE_SHI: 48,
             KEY_MOUSE_0: 32,
-            KEY_MOUSE_1: 86,
+            KEY_MOUSE_1: 16,
             KEY_MOUSE_2: 17,
             KEY_CHOOSE_1: 89,
             KEY_CHOOSE_2: 85,
@@ -2853,6 +2854,24 @@ KEY_ESC: 27,
                     name: "Oreigdors Arras.io",
                     location: "glitch-virginia",
                     at: "oreigdors-arras-io.glitch.me"
+                },{
+                    visible: 2,
+                    id: "469",
+                    host: "Glitch",
+                    region: "US East",
+                    type: "ffa",
+                    name: "betatest469",
+                    location: "glitch-virginia",
+                    at: "betatest469.glitch.me"
+                },{
+                    visible: 2,
+                    id: "4r69",
+                    host: "Glitch",
+                    region: "US East",
+                    type: "ffa",
+                    name: "Oreigdors-betatest469",
+                    location: "glitch-virginia",
+                    at: "469-new-bosses.glitch.me"
                 },
                       {visible:0,id:"z",host:"Private",region:"Unknown",type:"unk",name:"Private Server",location:"z-unknown",at:"private"},{
                     visible: 0,
@@ -3287,6 +3306,11 @@ KEY_ESC: 27,
                 case 13:
                     a.died && 0 >= a.diedOn + 3E3 - Date.now() && (this.parent.spawn(a.playerName), a.died = !1);
                     break;
+                case a.KEY_TOGGLEGUI:
+                    if(true){
+                        //toggle gui
+                    }else{
+                    }
                 case a.KEY_UP_ARROW:
                 case a.KEY_UP:
                     this.parent.set(0, !0);
@@ -3313,7 +3337,12 @@ KEY_ESC: 27,
                     this.parent.set(6, !0);
                     break;
                 case a.KEY_LEVEL_UP:
-                    this.parent.emit("L")
+                    this.parent.emit("L");
+                    break;
+                case a.KEY_ULT:
+                        this.parent.emit("`");
+                        break;
+                    
             }
             if (a.canSkill) {
                 var d = this.statMaxing ? 12 : 1;
@@ -3373,12 +3402,6 @@ KEY_ESC: 27,
                         break;
                     case a.KEY_FUCK_YOU:
                         this.parent.emit("0");
-                        break;
-                    case a.KEY_ULT:
-                        this.parent.emit("`");
-                        break;
-                    case a.KEY_TOGGLEUI:
-                        this.parent.emit("q");
                         break;
                     case a.KEY_KILL_YOURSELF:
                         this.parent.emit("K");
