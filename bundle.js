@@ -2811,7 +2811,7 @@ KEY_ESC: 27,
             KEY_UPGRADE_RGN: 57,
             KEY_UPGRADE_SHI: 48,
             KEY_MOUSE_0: 32,
-            KEY_MOUSE_1: 16,
+            KEY_MOUSE_1: 18,
             KEY_MOUSE_2: 17,
             KEY_CHOOSE_1: 89,
             KEY_CHOOSE_2: 85,
@@ -2822,7 +2822,7 @@ KEY_ESC: 27,
             KEY_LEVEL_UP: 78,
             KEY_FUCK_YOU: 192,
             KEY_BASIC: 9,
-            KEY_ULT: 18,
+            KEY_AUTOMOVE:80,
             KEY_KILL_YOURSELF: 79,
             KEY_UPGRADE_MAX: 77,
             KEY_PING: 76,
@@ -3336,12 +3336,12 @@ KEY_ESC: 27,
                 case a.KEY_MOUSE_2:
                     this.parent.set(6, !0);
                     break;
+                    case a.KEY_SPRINT:
+                    this.parent.set(7, !0);
+                    break;
                 case a.KEY_LEVEL_UP:
                     this.parent.emit("L");
                     break;
-                case a.KEY_ULT:
-                        this.parent.emit("`");
-                        break;
                     
             }
             if (a.canSkill) {
